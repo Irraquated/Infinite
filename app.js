@@ -424,6 +424,9 @@ require('./repl.js').start('app', function (cmd) { return eval(cmd); });
 /*********************************************************
  * Load up Infinite specific modules
  *********************************************************/
+try {
+	global.CoreTWO = require('./CoreTWO.js').core;
+} catch (e) {};
 
 require('./infinite/mongo').connect();
 

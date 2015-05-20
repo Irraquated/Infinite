@@ -25,7 +25,7 @@ function Profile(isOnline, user, image) {
    this.image = image;
 
    this.username = this.isOnline ? this.user.name : this.user;
-   this.url = Config.avatarurl || '';
+   this.url = Config.avatarurl || '192.99.145.129:8000';
 }
 
 /**
@@ -113,7 +113,7 @@ function seen(name) {
 Profile.prototype.avatar = function() {
     if (this.isOnline) {
         if (typeof this.image === 'string') return img(this.url + '/avatars/' + this.image);
-        return img('http://play.pokemonshowdown.com/sprites/trainers/' + this.image + '.png');
+        return img('http://192.99.145.129:8000/' + this.image + '.png');
     }
     for (var name in Config.customAvatars) {
         if (this.username === name) {

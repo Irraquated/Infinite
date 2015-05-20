@@ -123,11 +123,11 @@ module.exports = {
         user.disconnectAll();
     },
 
-    emotes: 'emoticons',
+    /* emotes: 'emoticons',
     emoticons: function() {
         if (!this.canBroadcast()) return;
         this.sendReply('|raw|' + emotes_table);
-    },
+    }, */
 
     poofoff: 'nopoof',
     nopoof: function () {

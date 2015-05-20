@@ -13,7 +13,7 @@ var shop = [
     ['Ultra', 'Get a card that has a <b>high chance of being a uncommon or rare card</b>. Medium chance for a higher rarity card.', 24],
     ['Master', 'Get a card that has a high chance of being a <b>rare or epic card</b>. Medium chance for a higher rarity card.', 50],
     ['Smogon', 'Get a card that has a high chance of being a <b>epic or legendary card.</b>', 80],
-    ['Infinite', 'Get a card that has a <b>very high chance of being a legendary card.</b>', 150]
+    ['Nimbus', 'Get a card that has a <b>very high chance of being a legendary card.</b>', 150]
 ];
 
 var shopDisplay = getShopDisplay(shop);

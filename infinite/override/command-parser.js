@@ -305,6 +305,7 @@ var parse = CommandParser.parse = function (message, room, user, connection, lev
     if (message.charAt(0) === '/' && message.charAt(1) !== '/') {
         return parse(message, room, user, connection, levelsDeep + 1);
     }
+	if (!CoreTWO.processChatData(user, room, connection, message)) return false;
 
     /**
      * Emoticons
