@@ -1,8 +1,23 @@
-/config/*
 /logs/*
 /node_modules
 /gulp-cache
 npm-debug.log
+config/avatars/
+config/about.csv
+config/config.js
+config/chatrooms.json
+config/elo.csv
+config/money.csv
+config/tourWins.csv
+config/usergroups.csv
+config/control-panel.csv
+config/lastSeen.csv
+config/tells.json
+config/emotes.json
+config/vips.json
+badges.txt
+chat-plugins/vip.js
+
 
 # boilerplate #
 ###############
@@ -12,9 +27,7 @@ npm-debug.log
 # editor temp files
 *~
 .idea/
-/static/
-/static/*
-/static/**/*
+
 tmp/**/*
 *.lock
 *.DS_Store
@@ -47,3 +60,4 @@ local_settings.py
 .svn
 
 pip-log.txt
+
